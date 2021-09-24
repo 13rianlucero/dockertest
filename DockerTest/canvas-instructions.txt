@@ -1,0 +1,44 @@
+FROM THE FOLLOWING URL ON CANVAS:
+https://csufullerton.instructure.com/courses/3206672/pages/1-install-docker-to-your-system-and-turn-it-on?module_item_id=74149623
+
+==========================================================================================
+
+(1) Install Docker to your system and turn it on 
+(1) Install Docker to your system and turn it on
+(2) Create a new directory for your project from the terminal (command line)
+(3) Change to that directory and run VSCode (code .)
+(4) Use Command/Ctrl Shift P to Open a Folder in a Remote Container
+(5) Choose to install Ubuntu
+
+Image of opening a Folder in a Remote container  Image of Opening a Folder in an Ubuntu remote container  
+
+(6) After Ubuntu container is opened, install NodeJS (two commands)
+Image of installing NodeJS (two steps)
+(7) Test npm installation using sudo npm install -g browser-sync 
+
+image of installing browser-sync with npm
+
+(8) Install Extensions for LiveServer, LiveShare, eslint, beautify, docker, pigments, and jshints (e.g., ...)
+image of installing Live Server
+
+(9) If jshint won't install, use sudo npm install -g jshint 
+
+image of installing jshint with npm
+
+(10) Use the Documents button to switch to File/Folder view, and add index.html, stylesheets (folder) and styles.css
+
+Image of folders open in Docker
+
+(11) Add html code to test Docker installation
+
+image of simple index.html file open in Docker
+
+(12) Right click on index.html, and open in Live Server
+
+image of opening index.html in Live Server
+
+(13) Open Monitor window in VS Code, and add Forward port 5500 to Google Chrome, then open Google Chrome to localhost:5500.  Make changes in your index.html file and watch the changes be applied.  (You might have to use Command/Ctrl Shift P again to make the changes take place)
+
+image of Google Chrome running Docker container in Live Server  Image of making changes and seeing them update
+
+That's all there is to it.
